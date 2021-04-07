@@ -1,6 +1,6 @@
 ---
 declared-services: 
-  sample-nodejs-cloudant-cloudantNoSQLDB:
+  Cloudant-rk:
     label: cloudantNoSQLDB 
     plan: Lite 
 applications:
@@ -8,4 +8,4 @@ applications:
   random-route: true
   memory: 256M
   services:
-  - sample-nodejs-cloudant-cloudantNoSQLDB
+  - Cloudant-rk
